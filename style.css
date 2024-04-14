@@ -1,0 +1,182 @@
+
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:25px;
+    image-rendering:optimizeQuality;
+    image-resolution:inherit;
+    background-image: linear-gradient(to top, #201f1f 50%, #e47fa7 50%);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.principal{
+    background: #cbe7f0;
+    width: 94%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px
+}
+
+.titulo-principal{
+    text-align: center;
+    background-image: linear-gradient(to top, #71d8d8fd 100%, #e7f84c 30%);
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 30px;
+    color: rgb(30, 128, 240);
+}
+
+p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(30, 128, 240);
+    font-size: 20px;
+}
+
+em strong{
+    color:#e47fa7;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.imagenBanner{
+    margin: 10px 10px 10px 50px;
+    background-position:left;
+    box-shadow: 0 8px 16px 0 #e47fa7,  0 6px 20px  0 rgba(238, 227, 74, 0.986);
+    width: 600px;
+    height: 300px;
+    border-radius: 10px; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.containerImagen{
+    margin: 10px 10px 10px 50px;
+    background-position:right;
+    box-shadow: 0 8px 16px 0  #e47fa7,  0 6px 20px  0 rgba(238, 227, 74, 0.986);
+    width: 600px;
+    height: 300px;
+    border-radius: 10px; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+    }
+/*Cuando uso selectores de identificación "id" en el html se puede trabajar con "#" en css como el ejemplo siguiente  */
+
+#mision{
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+
+
+/* Cuando usamos selectores de class dentro de las etiquetas html por eso usamos el punto por ejemplo abajo */
+
+.titulo-secundario{
+    background-image: linear-gradient(to top, #71d8d8fd 100%, #e7f84c 30%);
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px;
+    color: rgb(30, 128, 240);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.diferenciales{
+    background: #FFFFFF;
+    padding: 5px;
+    backdrop-filter:  blur(5px);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.items{
+    font-style: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content:left;
+    padding: 10px;
+    color:rgb(241, 245, 248)
+    
+}
+
+ul{
+    font-style: Helvetica, sans-serif;
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 15%;
+}
+
+
+
+.imagenDiferenciales{
+    margin: 5px;
+    background-position:center;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px; 
+    position:absolute;
+    right:20%;
+    box-shadow: 0 8px 16px 0 rgb(238, 35, 35),  0 6px 20px  0 rgba(122, 238, 14, 0.986);
+    backdrop-filter:  blur(5px);
+}
+
+a{
+    color:rgb(30, 128, 240);
+    cursor: pointer;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+svg{
+    margin: 15px;
+    background-position:center;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 8%;
+    transition: .3s ease all ;
+}
+
+svg:hover{
+    transform: scale(1.1) rotate(-6deg);
+    box-shadow: -7px -7px 9px rgba(0,  0, 0, 0.6    5), 7px 7px 15px rgba(241, 17, 17, 0.3);
+}
+
+nav {
+    font-style: Arial, Helvetica, sans-serif;
+    display: inline;
+    justify-content:left;
+    color:rgb(235, 235, 241);
+    
+}
+
+button{
+    font-style: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: right;
+    margin: 10px 10px 10px 600px;
+    padding: 15px;
+    background-image: linear-gradient(to top, #71d8d8fd 20px, #e47fa7 60px);
+    cursor :pointer;
+    border-radius: 10px;
+    transition: .3s ease all ;
+    color: rgb(30, 128, 240);
+    background-position:right;
+    
+}
+
+button:hover {
+    transform: scale(1.1) rotate(-6deg);
+    box-shadow: -7px -7px 9px rgba(0,  0, 0, 0.6    5), 7px 7px 15px rgb(243, 239, 16);
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    box-shadow: 0 8px 16px 0 #e47fa7,  0 6px 20px  0 rgba(180, 85, 82, 0.986);
+}
+
+
